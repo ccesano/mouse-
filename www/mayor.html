@@ -11,32 +11,30 @@
 
 <body>
 <div data-role="page" id="mayor">
-<div data-role="panel" id="sideNav" data-position="left">
-      <ul id="sideButtons">
-        <li>
-          <a href="#"><i class="icon-facebook"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="icon-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="icon-linkedin"></i></a>
-        </li>
-          <li>
-          <a href="#"><i class="icon-google-plus"></i></a>
-        </li>
-      </ul>
-      <ul id="sidePanel" class="clleft">
-        <li id="active"><a href="index.html"><i class="icon-home"></i> Inicio</a></li>
+<div data-role="panel" id="myPanel"> 
+    <h2>Panel Header</h2>
+    <li id="active"><a href="index.html"><i class="icon-home"></i> Inicio</a></li>
         <li><a href="premier.html"><i class="icon-lightbulb"></i> Premier League</a></li>
         <li><a href="mayor.html"><i class="icon-star"></i> Mayor League</a></li>
         <li><a href="senior.html"><i class="icon-font"></i> Senior League</a></li>
         <li><a href="new.html"><i class="icon-envelope"></i> New League</a></li>
-      </ul>
-    </div>
+  </div> 
 
   <div data-role="header">
-  <a href="#sideNav" id="navIcon"><i class="icon-th-list"></i></a>
+    <h1>Page Header</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Click on the button below to open the Panel.</p>
+    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Page Footer</h1>
+  </div> 
+</div> 
+  <div data-role="header">
+  
  
     <h1>Encabezado</h1>
   </div>
