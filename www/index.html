@@ -29,6 +29,7 @@
     <link href="../jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="leerxml.js"></script>
     </head>
     
     
@@ -46,14 +47,17 @@
 
   <div data-role="header">
   
-    <h1>Inicio</h1>
+    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
+    <h1>Amigos Del Norte</h1>
   </div>
 
   <div data-role="main" class="ui-content">
   
-    <p>Click on the button below to open the Panel.</p>
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
+    Cuerpo de la pagina
+    $xml = file_get_contents ("deportec.com.ar/Apps/AmigosDelNorte/NXML.php");
+    
   </div>
+
 
   <div data-role="footer">
     <h1>Page Footer</h1>
